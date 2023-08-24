@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PersonalPortafolio/index.html/static/css/main.00cf884c.css",
-    "main.js": "/PersonalPortafolio/index.html/static/js/main.605fffa8.js",
-    "static/js/787.02a4424f.chunk.js": "/PersonalPortafolio/index.html/static/js/787.02a4424f.chunk.js",
-    "index.html": "/PersonalPortafolio/index.html/index.html",
-    "main.00cf884c.css.map": "/PersonalPortafolio/index.html/static/css/main.00cf884c.css.map",
-    "main.605fffa8.js.map": "/PersonalPortafolio/index.html/static/js/main.605fffa8.js.map",
-    "787.02a4424f.chunk.js.map": "/PersonalPortafolio/index.html/static/js/787.02a4424f.chunk.js.map"
+    "main.css": "/PersonalPortafolio/static/css/main.00cf884c.css",
+    "main.js": "/PersonalPortafolio/static/js/main.1ff8e736.js",
+    "static/js/787.02a4424f.chunk.js": "/PersonalPortafolio/static/js/787.02a4424f.chunk.js",
+    "index.html": "/PersonalPortafolio/index.html",
+    "main.00cf884c.css.map": "/PersonalPortafolio/static/css/main.00cf884c.css.map",
+    "main.1ff8e736.js.map": "/PersonalPortafolio/static/js/main.1ff8e736.js.map",
+    "787.02a4424f.chunk.js.map": "/PersonalPortafolio/static/js/787.02a4424f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00cf884c.css",
-    "static/js/main.605fffa8.js"
+    "static/js/main.1ff8e736.js"
   ]
 }
