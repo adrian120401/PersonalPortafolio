@@ -25,7 +25,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-end">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-end" >
         <button
         className={`navbar-toggler mx-3 border-0 d-lg-none`}
         type="button"
