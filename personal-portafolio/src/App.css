@@ -1,3 +1,7 @@
+body{
+    background-color:#323232 !important;
+}
+
 .header-wraper{
     position: relative;
     background: url("./assets/background.jpg") no-repeat;
@@ -11,4 +15,8 @@
     .header-wraper{
         height: 80vh;
     }
+}
+
+#about{
+    max-width: 55rem;
 }

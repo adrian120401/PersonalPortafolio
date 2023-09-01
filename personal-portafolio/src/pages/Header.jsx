@@ -1,9 +1,8 @@
 import ReactTyped from "react-typed"
-import { Link } from "react-router-dom"
-
 
 const Header = () =>{
     return(
+        <div className="container-fluid" id="home" >
         <div className="header-wraper row">
             <div className="d-flex flex-column justify-content-center align-items-center text-center text-light text-uppercase">
                 <h1>Adrian de los Reyes</h1>
@@ -15,8 +14,9 @@ const Header = () =>{
                 backSpeed={40}
                 loop
                 />
-                <Link className="btn btn-outline-light mt-3" to={""}>Contact me</Link>
+                <a className="btn btn-outline-light mt-3" href="#contact">Contact me</a>
             </div>
+        </div>
         </div>
     )
 }

@@ -7,7 +7,7 @@ const Projects = ()=> {
         console.log(ProjectList)
         return ProjectList.map(Project =>{
             return(
-                    <div class="card m-2" style={{backgroundColor:"#323232", color:"white"}} >
+                    <div class="card m-2 text-light" style={{backgroundColor:"#323232"}} >
                         <img src={Project.imgs[0]} alt={Project.imgs[0]} className="card-img-top"></img>
                         <div class="card-body">
                         <h5 class="card-title">{Project.title}</h5>
@@ -20,7 +20,7 @@ const Projects = ()=> {
         })
     }
     return(
-        <div class="container-fluid p-4" style={{backgroundColor:"#323232",minHeight:"100vh"}}>
+        <div class="container-fluid p-4"  id="projects">
            <div class="card-group">
             {getAllProjects()}
             </div>   
