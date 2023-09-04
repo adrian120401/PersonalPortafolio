@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 const Menu =  ({isOpen, toggleMenu}) => {
     return(
         <div
@@ -17,15 +16,18 @@ const Menu =  ({isOpen, toggleMenu}) => {
       }}
     >
         <ul style={{listStyle: "none" , padding: "0"}}>
-        <Link class="nav-item nav-link text-light" to="/" onClick={toggleMenu}>
+        <a class="nav-item nav-link text-light" href="#home" onClick={toggleMenu}>
             Home
-          </Link>
-          <Link class="nav-item nav-link text-light" to="/projects" onClick={toggleMenu}>
-            Projects
-          </Link>
-          <Link class="nav-item nav-link text-light" to="/about" onClick={toggleMenu}>
+          </a>
+          <a class="nav-item nav-link text-light" href="#about" onClick={toggleMenu}>
             About me
-          </Link>
+          </a>
+          <a class="nav-item nav-link text-light" href="#projects" onClick={toggleMenu}>
+            Projects
+          </a>
+          <a class="nav-item nav-link text-light" href="#contact" onClick={toggleMenu}>
+            Contact
+          </a>
         </ul>
     </div>
     )
