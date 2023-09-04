@@ -1,0 +1,5 @@
+const ProjectDetail = () => {
+
+}
+
+export {ProjectDetail}

@@ -34,6 +34,11 @@ body{
     max-width: 65rem;
 }
 
+.cards{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 1rem;
+}
 
 
 @media screen and (max-width: 768px){
@@ -53,6 +58,9 @@ body{
     }
     .icon{
         margin: 0 10px;
+    }
+    .cards{
+        grid-template-columns: 1fr;
     }
 }
 
