@@ -1,8 +1,8 @@
 const Contact = () =>{
 
     return(
-        <div className="contact"  id="contact">
-            <h1>Contact</h1>
+        <div className="mx-auto mt-5 text-light" id="contact">
+            <h2 className="text-center">Contact</h2>
         </div>
     )
 }
